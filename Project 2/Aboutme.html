@@ -4,9 +4,10 @@
     <link rel="stylesheet" href="Style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>My Portfolio</title>
 </head>
 <body>
+    
     <nav class="navbar" >
 
         <span class="Nav-logo-container">
@@ -18,10 +19,22 @@
         <a href="Contact.html" class="Nav-link" >Contact me</a>
         <a href="AboutMe.html" class="Nav-link" >About me</a>
         </span>
+        <span class="Menu-container">
+        <input type="checkbox" id="menu-toggle">
+        <label class="Menu-icon" for="menu-toggle">
+            <img src="assets/menus-recolored.png" alt="Menu" class="Menu-icon" >
+        </label>
+        <ul class="dropdown-content">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Contact.html">Contact me</a></li>
+            <li><a href="AboutMe.html">About me</a></li>
+          </ul>
+        </span>
        
     </nav>
-    <section class="AboutMe-sec" >
-        <span>
+    <main>
+               <section class="AboutMe-sec" >
+        <span class="Pic-container">
            <img src="assets/me.jfif" class="MY-Pic" alt="big me"> 
         </span>
         <span class="AboutME-Info"">
@@ -38,6 +51,8 @@ life more convenient.
             
         </span>
     </section>
+    </main>
+ 
     <footer>
         <p>067 381 7599 </p>
         <span class=" Home-Social-links">
