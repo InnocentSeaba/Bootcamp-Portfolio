@@ -37,7 +37,6 @@ main {
     display: flex;
     justify-content: space-between;
     width: 25%;
-    text-decoration: none;
     color: rgb(27, 11, 238);
     margin-left: auto;
     margin-right: 10%;
